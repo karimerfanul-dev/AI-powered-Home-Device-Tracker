@@ -261,9 +261,6 @@
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="11" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="{&quot;id&quot;:3,&quot;name&quot;:&quot;jiha&quot;,&quot;lastname&quot;:&quot;hh&quot;,&quot;email&quot;:&quot;hello@gmail.com&quot;,&quot;address&quot;:&quot;ffff&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
               <option name="time" value="2026-07-16 22:32:20" />
               <option name="uri" value="/api/v1/user" />
@@ -277,9 +274,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="12" />
@@ -303,9 +297,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="13" />
               <option name="method" value="GET" />
@@ -327,9 +318,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="14" />
@@ -361,9 +349,6 @@
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="15" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="{&quot;id&quot;:4,&quot;name&quot;:&quot;no&quot;,&quot;lastname&quot;:&quot;ddd&quot;,&quot;email&quot;:&quot;jihad&quot;,&quot;address&quot;:&quot;sssss&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
               <option name="time" value="2026-07-16 22:35:16" />
               <option name="uri" value="/api/v1/user" />
@@ -386,9 +371,6 @@
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="16" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="{&quot;id&quot;:5,&quot;name&quot;:&quot;hhhh&quot;,&quot;lastname&quot;:&quot;ssss&quot;,&quot;email&quot;:&quot;ssss&quot;,&quot;address&quot;:&quot;sssssss&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
               <option name="time" value="2026-07-16 22:36:20" />
               <option name="uri" value="/api/v1/user" />
@@ -411,9 +393,6 @@
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="17" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="{&quot;id&quot;:6,&quot;name&quot;:&quot;ss&quot;,&quot;lastname&quot;:&quot;ss&quot;,&quot;email&quot;:&quot;ss&quot;,&quot;address&quot;:&quot;ss&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
               <option name="time" value="2026-07-16 22:38:01" />
               <option name="uri" value="/api/v1/user" />
@@ -436,9 +415,6 @@
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="18" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="{&quot;id&quot;:7,&quot;name&quot;:&quot;java&quot;,&quot;lastname&quot;:&quot;ddd&quot;,&quot;email&quot;:&quot;sss&quot;,&quot;address&quot;:&quot;sss&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
               <option name="time" value="2026-07-16 22:46:27" />
               <option name="uri" value="/api/v1/user" />
@@ -452,9 +428,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="19" />
@@ -478,9 +451,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="20" />
               <option name="method" value="GET" />
@@ -502,9 +472,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="21" />
@@ -528,9 +495,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="22" />
               <option name="method" value="GET" />
@@ -552,9 +516,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="23" />
@@ -578,9 +539,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="24" />
               <option name="method" value="GET" />
@@ -592,6 +550,128 @@
               <option name="res" value="{&quot;id&quot;:2,&quot;name&quot;:&quot;hello&quot;,&quot;lastname&quot;:&quot;karim&quot;,&quot;email&quot;:&quot;ill@gmail.com&quot;,&quot;address&quot;:&quot;gg&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
               <option name="time" value="2026-07-16 22:54:10" />
               <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="25">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="25" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;jhad&quot;,&quot;lastname&quot;:&quot;new&quot;,&quot;email&quot;:&quot;hi@gamil.com&quot;,&quot;address&quot;:&quot;maijdee&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2026-07-17 21:25:48" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="26">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;name&quot;: &quot;siri&quot;,&#10;  &quot;location&quot;: &quot;bedroom&quot;,&#10;  &quot;type&quot;: &quot;SPEAKER&quot;,&#10;  &quot;userId&quot;: 1&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/create" />
+              <option name="id" value="26" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;siri&quot;,&quot;location&quot;:&quot;bedroom&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;userId&quot;:1}" />
+              <option name="time" value="2026-07-18 14:12:44" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="27">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
+              <option name="id" value="27" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="10" />
+                </map>
+              </option>
+              <option name="res" value="Device not found" />
+              <option name="time" value="2026-07-18 14:21:06" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="28">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;name&quot;: &quot;mini&quot;,&#10;  &quot;location&quot;: &quot;hello&quot;,&#10;  &quot;type&quot;: &quot;SPEAKER&quot;,&#10;  &quot;userId&quot;: 0&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/create" />
+              <option name="id" value="28" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Sat Jul 18 14:27:34 GMT+06:00 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-07-18 14:27:34" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="29">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;name&quot;: &quot;mini&quot;,&#10;  &quot;location&quot;: &quot;hello&quot;,&#10;  &quot;type&quot;: &quot;SPEAKER&quot;,&#10;  &quot;userId&quot;: 1&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8081/api/v1/device/create" />
+              <option name="id" value="29" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;id&quot;:3,&quot;name&quot;:&quot;mini&quot;,&quot;location&quot;:&quot;hello&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;userId&quot;:1}" />
+              <option name="time" value="2026-07-18 14:27:50" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
