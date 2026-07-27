@@ -591,9 +591,6 @@
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/create" />
               <option name="id" value="26" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;siri&quot;,&quot;location&quot;:&quot;bedroom&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;userId&quot;:1}" />
               <option name="time" value="2026-07-18 14:12:44" />
               <option name="uri" value="" />
@@ -607,9 +604,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/{id}" />
               <option name="id" value="27" />
@@ -641,9 +635,6 @@
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/create" />
               <option name="id" value="28" />
               <option name="method" value="POST" />
-              <option name="params">
-                <map />
-              </option>
               <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Sat Jul 18 14:27:34 GMT+06:00 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
               <option name="time" value="2026-07-18 14:27:34" />
               <option name="uri" value="" />
@@ -666,11 +657,146 @@
               <option name="host" value="http://127.0.0.1:8081/api/v1/device/create" />
               <option name="id" value="29" />
               <option name="method" value="POST" />
+              <option name="res" value="{&quot;id&quot;:3,&quot;name&quot;:&quot;mini&quot;,&quot;location&quot;:&quot;hello&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;userId&quot;:1}" />
+              <option name="time" value="2026-07-18 14:27:50" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="30">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;deviceId&quot;: 1,&#10;  &quot;energyConsumed&quot;: 0.033,&#10;  &quot;timestamp&quot;: {&#10;    &quot;seconds&quot;: 0,&#10;    &quot;nanos&quot;: 0&#10;  }&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="30" />
+              <option name="method" value="POST" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu Jul 23 20:21:26 GMT+06:00 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Bad Request, status=400).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-07-23 20:21:27" />
+              <option name="uri" value="/api/v1/ingestion" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="31">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;deviceId&quot;: 1,&#10;  &quot;energyConsumed&quot;: 0.033,&#10;  &quot;timestamp&quot;: {&#10;    &quot;seconds&quot;: 20,&#10;    &quot;nanos&quot;: 299&#10;  }&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="31" />
+              <option name="method" value="POST" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu Jul 23 20:21:55 GMT+06:00 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Bad Request, status=400).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-07-23 20:21:55" />
+              <option name="uri" value="/api/v1/ingestion" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="32">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;deviceId&quot;: 2,&#10;  &quot;energyConsumed&quot;: 0.033,&#10;  &quot;timestamp&quot;: &quot;2026-07-23T12:30:20.000Z&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="32" />
+              <option name="method" value="POST" />
+              <option name="res" value="" />
+              <option name="time" value="2026-07-23 20:28:34" />
+              <option name="uri" value="/api/v1/ingestion" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="33">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;deviceId&quot;: 2,&#10;  &quot;energyConsumed&quot;: 0.033,&#10;  &quot;timestamp&quot;: &quot;2026-07-23T12:30:20.000Z&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8082/api/v1/ingestion" />
+              <option name="id" value="33" />
+              <option name="method" value="POST" />
+              <option name="res" value="" />
+              <option name="time" value="2026-07-23 20:39:19" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="34">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;deviceId&quot;: 2,&#10;  &quot;energyConsumed&quot;: 0.033,&#10;  &quot;timestamp&quot;: &quot;2026-07-23T18:30:20+06:00&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8082/api/v1/ingestion" />
+              <option name="id" value="34" />
+              <option name="method" value="POST" />
               <option name="params">
                 <map />
               </option>
-              <option name="res" value="{&quot;id&quot;:3,&quot;name&quot;:&quot;mini&quot;,&quot;location&quot;:&quot;hello&quot;,&quot;type&quot;:&quot;SPEAKER&quot;,&quot;userId&quot;:1}" />
-              <option name="time" value="2026-07-18 14:27:50" />
+              <option name="res" value="" />
+              <option name="time" value="2026-07-27 20:34:05" />
+              <option name="uri" value="" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="35">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;deviceId&quot;: 3,&#10;  &quot;energyConsumed&quot;: 0.063,&#10;  &quot;timestamp&quot;: &quot;2026-07-23T18:30:20+06:00&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8082/api/v1/ingestion" />
+              <option name="id" value="35" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="" />
+              <option name="time" value="2026-07-27 20:34:43" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
