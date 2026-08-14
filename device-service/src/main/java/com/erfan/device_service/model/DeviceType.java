@@ -1,11 +1,11 @@
 package com.erfan.device_service.model;
 
 public enum DeviceType {
+    AC,
+    REFRIGERATOR,
     SPEAKER,
-    CAMERA,
-    THERMOSTAT,
+    TV,
+    FAN,
     LIGHT,
-    DOORBELL,
-    LOCK
-
+    WASHING_MACHINE
 }
