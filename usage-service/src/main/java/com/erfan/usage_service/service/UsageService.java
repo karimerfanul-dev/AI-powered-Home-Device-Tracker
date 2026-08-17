@@ -177,8 +177,6 @@ public class UsageService {
         }
 
         log.info("User threshold map: {}", userThresholdMap);
-        log.info("User threshold map: {}", userThresholdMap);
-
         // Check threshold against aggregated usage
         // FIX 6: Iterate directly over the map entries for cleaner code
         for (Map.Entry<Long, Double> entry : userThresholdMap.entrySet()) {
