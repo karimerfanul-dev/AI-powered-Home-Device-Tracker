@@ -9,7 +9,7 @@ services:
       MYSQL_DATABASE: home_energy_tracker
 
     ports:
-      - "3306:3306"
+      - "3323:3306"
 
     volumes:
       - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
@@ -113,6 +113,12 @@ services:
       - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=my-token
     volumes:
       - ./influxdb_data:/var/lib/influxdb2
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: mailpit
+    ports:
+      - "8025:8025"
+      - "1125:1025"
 volumes:
   mysql-data:
   mysql-logs:

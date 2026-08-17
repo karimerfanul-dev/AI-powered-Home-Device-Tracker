@@ -1,13 +1,13 @@
-package com.erfan.user_service;
+package com.erfan.alert_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserServiceApplication {
+public class AlertServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserServiceApplication.class, args);
+		SpringApplication.run(AlertServiceApplication.class, args);
 	}
 
 }
