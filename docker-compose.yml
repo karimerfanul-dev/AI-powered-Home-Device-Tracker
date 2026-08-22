@@ -9,7 +9,7 @@ services:
       MYSQL_DATABASE: home_energy_tracker
 
     ports:
-      - "3323:3306"
+      - "3350:3306"
 
     volumes:
       - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql

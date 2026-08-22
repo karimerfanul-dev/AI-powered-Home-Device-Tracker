@@ -7,6 +7,8 @@ import com.erfan.device_service.exception.DeviceNotFoundException;
 import com.erfan.device_service.repository.DeviceRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class DeviceService {
     private final DeviceRepository deviceRepository;
@@ -57,5 +59,12 @@ public class DeviceService {
         deviceDto.setLocation(device.getLocation());
         deviceDto.setUserId(device.getUserId());
         return deviceDto;
+    }
+
+    public List<DeviceDto> getAllDeviceByUserId(Long userId) {
+        List<Device> devices=deviceRepository.findAllByUserId(userId);
+        return devices.stream()
+                .map(this::mapToDto)
+                .toList();
     }
 }
