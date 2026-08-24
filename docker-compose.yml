@@ -90,7 +90,7 @@ services:
     container_name: kafka-ui
     image: ghcr.io/kafbat/kafka-ui:latest
     ports:
-      - "8070:8080"
+      - "8570:8080"
     depends_on:
       - kafka
     environment:
@@ -102,7 +102,7 @@ services:
     image: influxdb:2.7
     container_name: influxdb
     ports:
-      - "8072:8086"
+      - "8500:8086"
     environment:
       - DOCKER_INFLUXDB_INIT_MODE=setup
       - DOCKER_INFLUXDB_INIT_USERNAME=admin
@@ -117,8 +117,8 @@ services:
     image: axllent/mailpit:latest
     container_name: mailpit
     ports:
-      - "8025:8025"
-      - "1125:1025"
+      - "8501:8025"
+      - "1027:1025"
 volumes:
   mysql-data:
   mysql-logs:
