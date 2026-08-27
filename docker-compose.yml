@@ -102,7 +102,7 @@ services:
     image: influxdb:2.7
     container_name: influxdb
     ports:
-      - "8500:8086"
+      - "8700:8086"
     environment:
       - DOCKER_INFLUXDB_INIT_MODE=setup
       - DOCKER_INFLUXDB_INIT_USERNAME=admin
@@ -117,7 +117,7 @@ services:
     image: axllent/mailpit:latest
     container_name: mailpit
     ports:
-      - "8501:8025"
+      - "8691:8025"
       - "1027:1025"
   keycloak-db:
     container_name: keycloak-mysql
@@ -142,7 +142,7 @@ services:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
     ports:
-      - "8591:8080"
+      - "8791:8080"
     volumes:
       - ./docker/keycloak/realms/:/opt/keycloak/data/import/
     depends_on:
